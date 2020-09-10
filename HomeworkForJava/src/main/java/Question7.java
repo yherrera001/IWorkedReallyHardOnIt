@@ -6,13 +6,12 @@ public class Question7 {
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("YearUp");
             }
-            if (i % 3 == 0) {
+            else if (i % 3 == 0) {
                 System.out.println("Year");
             }
-            if (i % 5 == 0) {
+            else if (i % 5 == 0) {
                 System.out.println("Up");
             }
-
             else{
                 System.out.println(i);
             }

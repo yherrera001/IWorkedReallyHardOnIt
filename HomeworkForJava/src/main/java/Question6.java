@@ -11,14 +11,14 @@ public class Question6 {
         if(numberGrade<=100 && numberGrade>=90){
             System.out.println("You got an A!!!!");
         }
-        if(numberGrade<=89 && numberGrade>=80){
+        else if(numberGrade<=89 && numberGrade>=80){
             System.out.println("You got a B!");
         }
-        if(numberGrade<=79 && numberGrade>=70){
+        else if(numberGrade<=79 && numberGrade>=70){
             System.out.println("You got a C!");
-        } if(numberGrade<=69 && numberGrade>=60){
+        } else if(numberGrade<=69 && numberGrade>=60){
             System.out.println("You got a D!!");
-        } if(numberGrade<=59)
+        } else
             System.out.println("You got an F.");
     }
 
